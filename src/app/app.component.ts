@@ -10,7 +10,8 @@ export class AppComponent implements OnInit{
 
   title = "David\'s site";
   URLClassicPong: string = AppSettingsComponent.URL_CLASSICPONG;
-
+  URLBOI: string = AppSettingsComponent.URL_BOI;
+  
   ngOnInit(): void {
   }
 }
